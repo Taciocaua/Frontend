@@ -57,8 +57,50 @@ body::-webkit-scrollbar {
   font-size: 48px;
 }
 
-.hero img {
-  width: 50px;
+.hero h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+/*Imagens absolutas*/
+#fanta,
+#laranja-cortada,
+#laranja-cortada-2,
+#folha2 {
+  position: absolute;
+  top: 10%;
+}
+
+#fanta {
+  width: 30%;
+  left: 35%;
+  z-index: 2;
+  margin-top: 25px;
+}
+
+#laranja-cortada {
+  width: 30%;
+  left: 40%;
+  z-index: 3;
+}
+
+#laranja-cortada-2 {
+  width: 30%;
+  left: 50%;
+  z-index: 3;
+}
+
+#folha {
+  position: relative;
+  top: 10%;
+  left: 0;
+  z-index: 4;
+  transform: rotate(60deg);
+}
+
+#folha2 {
+  width: 10%;
+  right: 0;
 }
 
 /*Imagens absolutas*/
